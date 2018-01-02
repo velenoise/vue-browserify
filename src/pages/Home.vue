@@ -4,7 +4,7 @@
         <section class="content">
             Home page
             <br>
-            <img src="/dist/img/placeholder.jpg" alt="">
+            <img src="./img/placeholder.jpg" alt="">
         </section>
     </div>   
 </template>

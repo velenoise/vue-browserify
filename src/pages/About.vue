@@ -24,7 +24,10 @@
 </script>
 
 <style lang="scss">
+    @import '../styles/vars';
     .about {
-        background: url('/dist/img/placeholder.jpg') top left no-repeat;
+        position: relative;
+        background: url('#{$basepath}img/placeholder.jpg') top left no-repeat;
+        height: 300px;
     }
 </style>

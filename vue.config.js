@@ -1,14 +1,8 @@
 /* vue.config.js */
 let config = {};
 
-if (process.env.NODE_ENV === 'production') {
-    config = {
-        customCompilers: {
-            scss: function (content, cb, compiler, filePath) {
-                cb(null, content);
-            }
-        }
-    }
-}
+config.sass = {
+    includePaths: []
+};
 
 module.exports = config;
